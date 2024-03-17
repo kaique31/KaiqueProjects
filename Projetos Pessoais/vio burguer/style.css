@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kanit";
+  background: #732571;
+  color:#fff;
+  width: 90vw;
+  margin: 0 auto;
+  font-weight: 400;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #5f1c5c;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 26px;
+  padding: 25px 0;
+}
+
+.title-second {
+  color: #FFF;
+}
+
+
+nav li {
+  display: inline-block;
+  padding: 25px 15px;
+}
+
+.link-header, .link-border {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.link-header:hover {
+  color: #e1a4dc;
+}
+
+.link-border:hover{
+  color: #e1a4dc;
+  text-decoration: underline;
+  border: 1px solid #e1a4dc;
+}
+
+
+
+.link-border {
+  border: 1px solid #fff ;
+  border-radius: 15px;
+  padding: 7px 50px;
+}
+main{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 5%;
+}
+.info-food {
+  margin-right: 100px;
+  max-width: 650px;
+}
+
+.info-food p {
+  font-size: 21px;
+  font-weight: 300;
+  max-width: 570px;
+}
+
+.foto-food img {
+  position: relative;
+  padding-bottom: 28px;
+}
+
+.rodape {
+  border-top: 1px solid #5f1c5c;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.info-rodape{
+  font-size: 12px;
+}
